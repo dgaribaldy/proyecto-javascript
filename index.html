@@ -3,8 +3,27 @@
 <html>
 <head>
 	<title> hello word</title>
+
+	<script type="text/javascript">
+		/*var suma = 1;
+		function ciclo(hasta) {
+		for (var i = 1; i <= hasta; i++) {
+			suma = (suma+1)*(suma/2);
+		 console.log(i);
+		 console.log(suma);
+		}
+			
+		}*/
+		
+		//ciclo(5);
+		function recorer(){
+			var numero = document.getElementById('numero').value; 
+			ciclo('numero');
+		}
+	</script>
 </head>
 <body>
-	hola Garibaldy
+	<input id="numero">
+	<button onclick="recorer();">correr</button>
 </body>
 </html>
